@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TC简历</title>
+  <style>
+    html,body {
+      width: 100%;
+      height: 100%;
+    }
+    body {
+      overflow-y: auto;
+      overflow-x: hidden;
+      margin: 0;
+    }
+    h4 {
+      text-align: center;
+    }
+    .container {
+      padding: 10px;
+      font-size: 14px;
+    }
+    .title {
+      padding: 10px 0;
+      border-bottom: 2px solid blue;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .bold {
+      font-weight: bold;
+      margin-left: 10px;
+    }
+    .base-info .detail .item {
+      display: flex;
+      margin-bottom: 5px;
+    }
+    .base-info .detail .left {
+      width: 80px;
+    }
+    /* .base-info .detail .item span {
+      width: 45%;
+    } */
+    ul {
+      padding: 0 15px;
+      margin: 0;
+    }
+    ul li {
+      margin-bottom: 6px;
+    }
+    .job ul li {
+      font-size: 12px;
+    }
+    .job {
+      margin-bottom: 10px;
+    }
+    .maintitle {
+      font-weight: bold;
+      margin-bottom: 10px;
+      border-left: 3px solid green;
+      text-indent: 3px;
+      background-color: rgba(0, 0, 0, .2);
+    }
+    .subtitle {
+      font-weight: bold;
+      font-size: 12px;
+      margin-bottom: 2px;
+    }
+    .programtitle {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .introduce {
+      padding-bottom: 10px;
+      font-size: 12px;
+    }
+    .dot {
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      background-color: green;
+      margin-right: 5px;
+    }
+    .address {
+      font-size: 12px;
+      font-weight: normal;
+    }
+    .p-area,.job {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      padding: 3px;
+    }
+    .in-one {
+      text-indent: 2em;
+    }
+    .study .s-item {
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- 标题 -->
+    <h4>简历</h4>
+    <!-- 个人信息区域 -->
+    <div class="base-info">
+      <div class="title">个人信息</div>
+      <div class="detail">
+        <div class="item">
+          <div class="left">基本信息:</div>
+          <div class="right bold">田 聪 / 男 / 1991</div>
+        </div>
+        <div class="item">
+          <div class="left">联系方式:</div>
+          <div class="right bold">18862348287</div>
+        </div>
+        <div class="item">
+          <div class="left">英语能力:</div>
+          <div class="right bold">CET4</div>
+        </div>
+        <div class="item">
+          <div class="left">期望职位:</div>
+          <div class="right bold">前端开发</div>
+        </div>
+        <div class="item">
+          <div class="left">期望薪资:</div>
+          <div class="right bold">面议</div>
+        </div>
+        <div class="item">
+          <div class="left">学历:</div>
+          <div class="right bold">本科</div>
+        </div>
+        <div class="item">
+          <div class="left">邮箱:</div>
+          <div class="right bold">359193813@qq.com</div>
+        </div>
+      </div>
+    </div>
+    <!-- 个人能力区域 -->
+    <div class="ability">
+      <div class="title">个人能力</div>
+      <div class="detail">
+        <ul>
+          <li>熟悉浏览器平台(PC、Mobile)的特性, 能够很好的解决兼容问题</li>
+          <li>熟练js、jquery、html5、css3等原生开发技术</li>
+          <li>熟练掌握并应用Vue、React等MVVM框架开发技术</li>
+          <li>具备使用Flutter、小程序等跨终端技术开发能力,对移动前端有充足的实践和方法</li>
+          <li>熟悉使用webpack、npm等前端工程化工具</li>
+          <li>熟悉nodejs/ express框架、了解php</li>
+          <li>了解mySQL、mangodb等数据库的基础操作</li>
+          <li>具备良好的代码规范，注重代码的整洁、可维护性</li>
+          <li>具备良好的沟通能力和团队协作精神, 优秀的分析和解决问题能力, 愿意接受挑战和承担压力</li>
+        </ul>
+      </div>
+    </div>
+    <!-- 工作经历区域 -->
+    <div class="experience">
+      <div class="title">工作经历</div>
+      <div class="detail">
+        <div class="job">
+          <div class="maintitle">苏州腾邦(2015.1~2018.10)</div>
+          <div class="subtitle">岗位职责:</div>
+          <ul>
+            <li>使用原生技术(js/jquery+bootstrap)进行pc端页面、H5页面开发、微信小程序开发</li>
+            <li>负责相关项目的开发、优化、维护</li>
+          </ul>
+        </div>
+        <div class="job">
+          <div class="maintitle">无锡朗新金关(2018.10~2020.02)</div>
+          <div class="subtitle">岗位职责:</div>
+          <ul>
+            <li>使用VUE技术(vue+elementUI)进行pc端页面、H5页面开发、微信小程序开发</li>
+            <li>公共组件封装, 公共方法编写, 前端技术选型, 架构设计</li>
+            <li>参与项目需求及技术评审, 组织技术难点攻关, 保证开发的质量与进度</li>
+          </ul>
+        </div>
+        <div class="job">
+          <div class="maintitle">无锡麦田能源(2020.02~至今)</div>
+          <div class="subtitle">岗位职责:</div>
+          <ul>
+            <li>负责公司前端整体技术平台的规划与架构设计, 针对核心模块进行开发, 对系统性能和扩展性负责</li>
+            <li>持续优化前端体验和页面响应速度, 提升界面的友好和易用</li>
+            <li>技术框架和工具的持续改善、新框架与工具的探索和引入, 并指导开发团队</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- 项目区域 -->
+    <div class="program">
+      <div class="title">项目经历</div>
+      <div class="detail p-area">
+        <div class="programtitle"><span class="dot"></span>光伏监控PC后台管理系统<span class="address">(https://www.maitian-yun.com/)</span></div>
+        <div class="subtitle">★ 项目简介</div>
+        <div class="introduce in-one">将光伏电站的逆变器、汇流箱、辐照仪、气象仪、电表等设备通过数据线连接起来, 用光伏电站数据采集器进行这些设备的技术采集, 数据汇总、数据分析、网络监控等.</div>
+        <div class="subtitle">★ 主要内容</div>
+        <div class="introduce">
+          <div>1.基于VUE的前端架构</div>
+          <div>2.大屏展示模块采用rem+百分比进行布局</div>
+          <div>3.基于echart进行图表展示</div>
+          <div>4.使用websocket技术进行数据实时刷新</div>
+          <div>5.使用i18n国际化</div>
+        </div>
+      </div>
+      <div class="detail p-area">
+        <div class="programtitle"><span class="dot"></span>光伏监控App<span class="address">(应用商店搜索麦田光伏)</span></div>
+        <div class="subtitle">★ 项目简介</div>
+        <div class="introduce in-one">光伏电站客户端检测软件, 可通过远程无线与电站进行交互, 获取电站发电量、发电收益、设备状态、设备信息等运行参数</div>
+        <div class="subtitle">★ 主要内容</div>
+        <div class="introduce">
+          <div>1.基于Flutter 技术跨终端(ios/andriod)开发, App的维护</div>
+          <div>2.兼容性以及用户体验进行优化, 保证用户体验及质量</div>
+          <div>3.其余部分业务内容同上述pc端</div>
+        </div>
+      </div>
+      <div class="detail p-area">
+        <div class="programtitle"><span class="dot"></span>微信小程序<span class="address">(智慧通关、固生堂等)</span></div>
+        <div class="subtitle">★ 项目简介</div>
+        <div class="introduce in-one">基于原生微信小程序的相关业务开发</div>
+        <div class="subtitle">★ 主要内容</div>
+        <div class="introduce">
+          <div>1.小程序平台架构设计, 调试、优化及迭代</div>
+          <div>2.页面分享, 生成海报等业务功能开发和维护</div>
+        </div>
+      </div>
+    </div>
+    <!-- 教育经历 -->
+    <div class="study">
+      <div class="title">教育经历</div>
+      <div class="s-item">
+        <div>本科: 南京大学(自考)</div>
+        <div>专科: 苏州市职业大学</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
