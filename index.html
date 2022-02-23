@@ -31,7 +31,7 @@
       font-weight: bold;
       margin-left: 10px;
     }
-    .base-info .detail .item {
+    .base-info .item {
       display: flex;
       margin-bottom: 5px;
     }
@@ -59,10 +59,13 @@
       margin-bottom: 10px;
       border-left: 3px solid green;
       text-indent: 3px;
+    }
+    .bg-c {
       background-color: rgba(0, 0, 0, .2);
     }
     .subtitle {
       font-weight: bold;
+      color: rgb(85, 84, 84);
       font-size: 12px;
       margin-bottom: 2px;
     }
@@ -71,7 +74,7 @@
       margin-bottom: 10px;
     }
     .introduce {
-      padding-bottom: 10px;
+      padding: 10px 0;
       font-size: 12px;
     }
     .dot {
@@ -85,17 +88,29 @@
       font-size: 12px;
       font-weight: normal;
     }
-    .p-area,.job {
-      border: 1px solid #ccc;
+    .p-area {
+      /* border: 1px solid #ccc; */
       border-radius: 5px;
-      margin-bottom: 10px;
-      padding: 3px;
+      padding-left: 10px;
     }
     .in-one {
       text-indent: 2em;
     }
     .study .s-item {
       font-size: 12px;
+    }
+    .common-title {
+      font-weight: bold;
+      font-size: 12px;
+    }
+    .case {
+      padding: 10px 0;
+    }
+    .pl-10 {
+      padding-left: 10px;
+    }
+    .detail {
+      margin-bottom: 14px;
     }
   </style>
 </head>
@@ -160,69 +175,95 @@
       <div class="detail">
         <div class="job">
           <div class="maintitle">苏州腾邦(2015.1~2018.10)</div>
-          <div class="subtitle">岗位职责:</div>
-          <ul>
-            <li>使用原生技术(js/jquery+bootstrap)进行pc端页面、H5页面开发、微信小程序开发</li>
-            <li>负责相关项目的开发、优化、维护</li>
-          </ul>
+          <div class="subtitle">岗位职责: 前端开发</div>
         </div>
         <div class="job">
           <div class="maintitle">无锡朗新金关(2018.10~2020.02)</div>
-          <div class="subtitle">岗位职责:</div>
-          <ul>
-            <li>使用VUE技术(vue+elementUI)进行pc端页面、H5页面开发、微信小程序开发</li>
-            <li>公共组件封装, 公共方法编写, 前端技术选型, 架构设计</li>
-            <li>参与项目需求及技术评审, 组织技术难点攻关, 保证开发的质量与进度</li>
-          </ul>
+          <div class="subtitle">岗位职责: 移动端开发负责人</div>
         </div>
         <div class="job">
-          <div class="maintitle">无锡麦田能源(2020.02~至今)</div>
-          <div class="subtitle">岗位职责:</div>
-          <ul>
-            <li>负责公司前端整体技术平台的规划与架构设计, 针对核心模块进行开发, 对系统性能和扩展性负责</li>
-            <li>持续优化前端体验和页面响应速度, 提升界面的友好和易用</li>
-            <li>技术框架和工具的持续改善、新框架与工具的探索和引入, 并指导开发团队</li>
-          </ul>
+          <div class="maintitle">无锡麦田能源(2020.02~2021.03)</div>
+          <div class="subtitle">岗位职责: 前端开发负责人</div>
+        </div>
+        <div class="job">
+          <div class="maintitle">航天吉光科技(2021.03~至今)</div>
+          <div class="subtitle">岗位职责: 前端开发负责人</div>
         </div>
       </div>
     </div>
     <!-- 项目区域 -->
     <div class="program">
       <div class="title">项目经历</div>
-      <div class="detail p-area">
-        <div class="programtitle"><span class="dot"></span>光伏监控PC后台管理系统<span class="address">(https://www.maitian-yun.com/)</span></div>
-        <div class="subtitle">★ 项目简介</div>
-        <div class="introduce in-one">将光伏电站的逆变器、汇流箱、辐照仪、气象仪、电表等设备通过数据线连接起来, 用光伏电站数据采集器进行这些设备的技术采集, 数据汇总、数据分析、网络监控等.</div>
-        <div class="subtitle">★ 主要内容</div>
-        <div class="introduce">
-          <div>1.基于VUE的前端架构</div>
-          <div>2.大屏展示模块采用rem+百分比进行布局</div>
-          <div>3.基于echart进行图表展示</div>
-          <div>4.使用websocket技术进行数据实时刷新</div>
-          <div>5.使用i18n国际化</div>
+      <div class="detail">
+        <div class="maintitle bg-c">PC后台管理系统</div>
+        <div class="pl-10">
+          <div class="common-title">开发经验</div>
+          <div class="p-area">
+            <div class="introduce">具备丰富的后台管理系统开发经验和架构设计能力,项目大多采用主流的react和vue框架,实现功能快速开发并保证页面流畅体验</div>
+          </div>
+          <div class="common-title">开发案例</div>
+          <div class="p-area">
+            <div class="case">1.光伏监控云平台</div>
+            <div class="subtitle">项目简介: 导向式建站、监控电站运行情况等</div>
+            <div class="case">2.汽车电子标识管理系统</div>
+            <div class="subtitle">项目简介: 汽车电子卡绑定、消费场景管理等</div>
+            <div class="case">3.电动自行车管控系统</div>
+            <div class="subtitle">项目简介: 电动自行车违章、车流量分析等</div>
+          </div>
         </div>
       </div>
-      <div class="detail p-area">
-        <div class="programtitle"><span class="dot"></span>光伏监控App<span class="address">(应用商店搜索麦田光伏)</span></div>
-        <div class="subtitle">★ 项目简介</div>
-        <div class="introduce in-one">光伏电站客户端检测软件, 可通过远程无线与电站进行交互, 获取电站发电量、发电收益、设备状态、设备信息等运行参数</div>
-        <div class="subtitle">★ 主要内容</div>
-        <div class="introduce">
-          <div>1.基于Flutter 技术跨终端(ios/andriod)开发, App的维护</div>
-          <div>2.兼容性以及用户体验进行优化, 保证用户体验及质量</div>
-          <div>3.其余部分业务内容同上述pc端</div>
+      <div class="detail">
+        <div class="maintitle bg-c">小程序</div>
+        <div class="pl-10">
+          <div class="common-title">开发经验</div>
+          <div class="p-area">
+            <div class="introduce">采用原生开发,自定义组件封装,自定义构建开发环境</div>
+          </div>
+          <div class="common-title">开发案例</div>
+          <div class="p-area">
+            <div class="case">1.CCBA智慧通行</div>
+            <div class="subtitle">项目简介: 导向式建站、监控电站运行情况等</div>
+            <div class="case">2.吉光智行</div>
+            <div class="subtitle">项目简介: 汽车电子卡绑定、消费场景管理等</div>
+            <div class="case">3.吉速登记</div>
+            <div class="subtitle">项目简介: 电动自行车违章、车流量分析等</div>
+          </div>
         </div>
       </div>
-      <div class="detail p-area">
-        <div class="programtitle"><span class="dot"></span>微信小程序<span class="address">(智慧通关、固生堂等)</span></div>
-        <div class="subtitle">★ 项目简介</div>
-        <div class="introduce in-one">基于原生微信小程序的相关业务开发</div>
-        <div class="subtitle">★ 主要内容</div>
-        <div class="introduce">
-          <div>1.小程序平台架构设计, 调试、优化及迭代</div>
-          <div>2.页面分享, 生成海报等业务功能开发和维护</div>
+      <div class="detail">
+        <div class="maintitle bg-c">App端</div>
+        <div class="pl-10">
+          <div class="common-title">开发经验</div>
+          <div class="p-area">
+            <div class="introduce">基于Flutter开发,一次开发多端运行</div>
+          </div>
+          <div class="common-title">开发案例</div>
+          <div class="p-area">
+            <div class="case">1.光伏监控app</div>
+            <div class="subtitle">项目简介: 监控电站运行、收益等情况</div>
+            <div class="case">2.手持机app</div>
+            <div class="subtitle">项目简介: 用于洗车、加油等车生活商业场景</div>
+          </div>
         </div>
       </div>
+      <div class="detail">
+        <div class="maintitle bg-c">BI大屏</div>
+        <div class="pl-10">
+          <div class="common-title">开发经验</div>
+          <div class="p-area">
+            <div class="introduce">响应式开发,图表展示,多种大屏适配</div>
+          </div>
+          <div class="common-title">开发案例</div>
+          <div class="p-area">
+            <div class="case">1.智慧停车BI大屏</div>
+            <div class="subtitle">项目简介: 停车场数据可视化展示</div>
+            <div class="case">2.电动自行车BI大屏</div>
+            <div class="subtitle">项目简介: 实时路况、车流量数据可视化展示</div>
+          </div>
+        </div>
+      </div>
+
+
     </div>
     <!-- 教育经历 -->
     <div class="study">
