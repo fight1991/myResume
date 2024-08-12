@@ -53,21 +53,29 @@
     }
     .job {
       margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+    }
+    .job_content {
+      padding-bottom: 10px;
+      font-size: 12px;
+    }
+    .job_content_line {
+      padding: 4px 0;
     }
     .maintitle {
       font-weight: bold;
-      margin-bottom: 10px;
       border-left: 3px solid green;
-      text-indent: 3px;
+      text-indent: 6px;
     }
     .bg-c {
-      background-color: rgba(0, 0, 0, .2);
+      background-color: rgba(0, 0, 0, 0.08);
     }
     .subtitle {
       font-weight: bold;
       color: rgb(85, 84, 84);
-      font-size: 12px;
-      margin-bottom: 2px;
+      font-size: 14px;
+      margin-left: 10px;
     }
     .programtitle {
       font-weight: bold;
@@ -92,6 +100,7 @@
       /* border: 1px solid #ccc; */
       border-radius: 5px;
       padding-left: 10px;
+      padding-bottom: 10px;
     }
     .in-one {
       text-indent: 2em;
@@ -110,7 +119,7 @@
       padding-left: 10px;
     }
     .detail {
-      margin-bottom: 14px;
+      /* margin-bottom: 14px; */
     }
   </style>
 </head>
@@ -157,13 +166,12 @@
       <div class="title">个人能力</div>
       <div class="detail">
         <ul>
-          <li>熟悉浏览器平台(PC、Mobile)的特性, 能够很好的解决兼容问题</li>
-          <li>熟练js、jquery、html5、css3等原生开发技术</li>
-          <li>熟练掌握并应用Vue、React等MVVM框架开发技术</li>
-          <li>具备使用Flutter、小程序等跨终端技术开发能力,对移动前端有充足的实践和方法</li>
-          <li>熟悉使用webpack、npm等前端工程化工具</li>
-          <li>熟悉nodejs/ express框架、了解php</li>
-          <li>了解mySQL、mangodb等数据库的基础操作</li>
+          <li>7年前端开发经验、2年前端管理经验</li>
+          <li>熟悉前端开发语言: TS、Dart、JS、HTML5、CSS3</li>
+          <li>熟悉前端框架: Vue、React</li>
+          <li>熟悉前端跨端开发技术: Flutter、小程序</li>
+          <li>熟悉前端构建工具webpack、rollup</li>
+          <li>熟悉nodejs/express框架, 了解mySQL、mangodb等数据库的基础操作</li>
           <li>具备良好的代码规范，注重代码的整洁、可维护性</li>
           <li>具备良好的沟通能力和团队协作精神, 优秀的分析和解决问题能力, 愿意接受挑战和承担压力</li>
         </ul>
@@ -174,20 +182,45 @@
       <div class="title">工作经历</div>
       <div class="detail">
         <div class="job">
-          <div class="maintitle">苏州腾邦(2015.1~2018.10)</div>
-          <div class="subtitle">岗位职责: 前端开发</div>
+          <div class="maintitle">江苏极熵物联(2022.04~2024.08)</div>
+          <div class="subtitle">前端开发负责人</div>
+        </div>
+        <div class="job_content">
+          <div class="job_content_line">1. 领导并负责公司sass平台、小程序的开发</div>
+          <div class="job_content_line">2. 指导团队进行系统架构优化。</div>
+          <div class="job_content_line">3. 领导并负责系统的优化和重构工作，保证系统稳定可靠运行</div>
+          <div class="job_content_line">4. 制定组员具体的任务分工</div>
+          <div class="job_content_line">5. 开发自动化工具、脚本, 提升团队开发效率</div>
         </div>
         <div class="job">
-          <div class="maintitle">无锡朗新金关(2018.10~2020.02)</div>
-          <div class="subtitle">岗位职责: 移动端开发负责人</div>
+          <div class="maintitle">航天吉光科技(2020.03~2022.04)</div>
+          <div class="subtitle">前端开发负责人</div>
+        </div>
+        <div class="job_content">
+           <div class="job_content_line">1. 制定工作流程，指导团队分支开发和功能迭代</div>
+           <div class="job_content_line">2. 使用 tapd 等工具进行协同开发管理，完善跨组协作制度</div>
+           <div class="job_content_line">3. 参与技术攻关，组织技术积累等工作</div>
+           <div class="job_content_line">4. 负责对前端前沿技术的研究与推进，在团队中不断推行技术革新</div>
+           <div class="job_content_line">5. 指导并参与核心代码的规范和书写，组织解决项目开发过程中的重大技术问题</div>
+           <div class="job_content_line">6. 编码规范、易读、易维护、高质量、高效率，在开发过程中能发现存在的问题并能及时纠正</div>
+           <div class="job_content_line">7. 参与相关产品需求讨论与产品系统架构的设计和优化工作</div>
         </div>
         <div class="job">
-          <div class="maintitle">无锡麦田能源(2020.02~2021.03)</div>
-          <div class="subtitle">岗位职责: 前端开发负责人</div>
+          <div class="maintitle">无锡朗新科技(2018.10~2020.03)</div>
+          <div class="subtitle">前端开发</div>
+        </div>
+        <div class="job_content">
+          <div class="job_content_line">1. 负责公司主要产品的移动端页面的开发与维护</div>
+          <div class="job_content_line">2. 负责公司主要产品的后台管理系统界面的开发与维护</div>
+          <div class="job_content_line">3. 解决疑难问题，优化系统</div>
         </div>
         <div class="job">
-          <div class="maintitle">航天吉光科技(2021.03~至今)</div>
-          <div class="subtitle">岗位职责: 前端开发负责人</div>
+          <div class="maintitle">江苏聚力智能机械股份有限公司(2014.1~2018.10)</div>
+          <div class="subtitle">软件开发工程师</div>
+        </div>
+        <div class="job_content">
+          <div class="job_content_line">1. 开发及维护公司产品客户端</div>
+          <div class="job_content_line">2. 配合测试部门进行回归测试，解决已知问题。</div>
         </div>
       </div>
     </div>
@@ -195,71 +228,43 @@
     <div class="program">
       <div class="title">项目经历</div>
       <div class="detail">
-        <div class="maintitle bg-c">PC后台管理系统</div>
-        <div class="pl-10">
-          <div class="common-title">开发经验</div>
-          <div class="p-area">
-            <div class="introduce">具备丰富的后台管理系统开发经验和架构设计能力,项目大多采用主流的react和vue框架,实现功能快速开发并保证页面流畅体验</div>
-          </div>
-          <div class="common-title">开发案例</div>
-          <div class="p-area">
-            <div class="case">1.光伏监控云平台</div>
-            <div class="subtitle">项目简介: 导向式建站、监控电站运行情况等</div>
-            <div class="case">2.汽车电子标识管理系统</div>
-            <div class="subtitle">项目简介: 汽车电子卡绑定、消费场景管理等</div>
-            <div class="case">3.电动自行车管控系统</div>
-            <div class="subtitle">项目简介: 电动自行车违章、车流量分析等</div>
-          </div>
+        <div class="maintitle bg-c">PC端</div>
+        <div class="p-area">
+          <div class="case">1.光伏监控云平台</div>
+          <div class="subtitle">项目简介: 导向式建站、监控电站运行情况等</div>
+          <div class="case">2.汽车电子标识管理系统</div>
+          <div class="subtitle">项目简介: 汽车电子卡绑定、消费场景管理等</div>
+          <div class="case">3.电动自行车管控系统</div>
+          <div class="subtitle">项目简介: 电动自行车违章、车流量分析等</div>
         </div>
       </div>
       <div class="detail">
         <div class="maintitle bg-c">小程序</div>
-        <div class="pl-10">
-          <div class="common-title">开发经验</div>
-          <div class="p-area">
-            <div class="introduce">采用原生开发,自定义组件封装,自定义构建开发环境</div>
-          </div>
-          <div class="common-title">开发案例</div>
-          <div class="p-area">
-            <div class="case">1.CCBA智慧通行</div>
-            <div class="subtitle">项目简介: 导向式建站、监控电站运行情况等</div>
-            <div class="case">2.吉光智行</div>
-            <div class="subtitle">项目简介: 汽车电子卡绑定、消费场景管理等</div>
-            <div class="case">3.吉速登记</div>
-            <div class="subtitle">项目简介: 电动自行车违章、车流量分析等</div>
-          </div>
+        <div class="p-area">
+          <div class="case">1.CCBA智慧通行</div>
+          <div class="subtitle">项目简介: 导向式建站、监控电站运行情况等</div>
+          <div class="case">2.吉光智行</div>
+          <div class="subtitle">项目简介: 汽车电子卡绑定、消费场景管理等</div>
+          <div class="case">3.吉速登记</div>
+          <div class="subtitle">项目简介: 电动自行车违章、车流量分析等</div>
         </div>
       </div>
       <div class="detail">
-        <div class="maintitle bg-c">App端</div>
-        <div class="pl-10">
-          <div class="common-title">开发经验</div>
-          <div class="p-area">
-            <div class="introduce">基于Flutter开发,一次开发多端运行</div>
-          </div>
-          <div class="common-title">开发案例</div>
-          <div class="p-area">
-            <div class="case">1.光伏监控app</div>
-            <div class="subtitle">项目简介: 监控电站运行、收益等情况</div>
-            <div class="case">2.手持机app</div>
-            <div class="subtitle">项目简介: 用于洗车、加油等车生活商业场景</div>
-          </div>
+        <div class="maintitle bg-c">APP端</div>
+        <div class="p-area">
+          <div class="case">1.光伏监控app</div>
+          <div class="subtitle">项目简介: 监控电站运行、收益等情况</div>
+          <div class="case">2.手持机app</div>
+          <div class="subtitle">项目简介: 用于洗车、加油等车生活商业场景</div>
         </div>
       </div>
       <div class="detail">
         <div class="maintitle bg-c">BI大屏</div>
-        <div class="pl-10">
-          <div class="common-title">开发经验</div>
-          <div class="p-area">
-            <div class="introduce">响应式开发,图表展示,多种大屏适配</div>
-          </div>
-          <div class="common-title">开发案例</div>
-          <div class="p-area">
-            <div class="case">1.智慧停车BI大屏</div>
-            <div class="subtitle">项目简介: 停车场数据可视化展示</div>
-            <div class="case">2.电动自行车BI大屏</div>
-            <div class="subtitle">项目简介: 实时路况、车流量数据可视化展示</div>
-          </div>
+        <div class="p-area">
+          <div class="case">1.智慧停车BI大屏</div>
+          <div class="subtitle">项目简介: 停车场数据可视化展示</div>
+          <div class="case">2.电动自行车BI大屏</div>
+          <div class="subtitle">项目简介: 实时路况、车流量数据可视化展示</div>
         </div>
       </div>
 
