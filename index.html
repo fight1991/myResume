@@ -58,7 +58,7 @@
     }
     .job_content {
       padding-bottom: 10px;
-      font-size: 12px;
+      font-size: 14px;
     }
     .job_content_line {
       padding: 4px 0;
@@ -101,6 +101,13 @@
       border-radius: 5px;
       padding-left: 10px;
       padding-bottom: 10px;
+    }
+    .p-area-case {
+      border-radius: 5px;
+      padding: 10px 0 10px 10px;
+    }
+    .p-area-case .case {
+      padding:0 0 4px;
     }
     .in-one {
       text-indent: 2em;
@@ -168,8 +175,8 @@
         <ul>
           <li>7年前端开发经验、2年前端管理经验</li>
           <li>熟悉前端开发语言: TS、Dart、JS、HTML5、CSS3</li>
-          <li>熟悉前端框架: Vue、React</li>
-          <li>熟悉前端跨端开发技术: Flutter、小程序</li>
+          <li>熟悉前端开发框架: Vue、React</li>
+          <li>熟悉前端跨端开发技术: Flutter、Electron、小程序原生</li>
           <li>熟悉前端构建工具: webpack、rollup</li>
           <li>熟悉nodejs/express框架, 了解mySQL、mangodb等数据库的基础操作</li>
           <li>具备良好的代码规范，注重代码的整洁、可维护性</li>
@@ -182,7 +189,7 @@
       <div class="title">工作经历</div>
       <div class="detail">
         <div class="job">
-          <div class="maintitle">江苏极熵物联(2022.04~2024.08)</div>
+          <div class="maintitle">江苏极熵物联(2022.04~2024.09)</div>
           <div class="subtitle">前端开发负责人</div>
         </div>
         <div class="job_content">
@@ -228,47 +235,48 @@
     <div class="program">
       <div class="title">项目经历</div>
       <div class="detail">
-        <div class="maintitle bg-c">PC端</div>
-        <div class="p-area">
-          <div class="case">1.光伏监控云平台</div>
-          <div class="subtitle">项目简介: 导向式建站、监控电站运行情况等</div>
-          <div class="case">2.汽车电子标识管理系统</div>
-          <div class="subtitle">项目简介: 汽车电子卡绑定、消费场景管理等</div>
-          <div class="case">3.电动自行车管控系统</div>
-          <div class="subtitle">项目简介: 电动自行车违章、车流量分析等</div>
+        <div class="maintitle bg-c">熵云平台</div>
+        <div class="p-area-case">
+          <div class="case">1.该平台是一款集智能硬件、云平台、AI分析于一体的综合性互联网云平台，通过智慧运行提供节能降耗和预防性维护服务。</div>
+          <div class="case">2.该项目架构基于react+antd+ts实现, 拓扑可视化基于X6/G6实现, 使用craco完成打包。</div>
+          <div class="case">3.该平台包含光伏运维、智能微网、异常报警、储能策略、生产设备运维、报表分析等功能模块。</div>
+          <div class="case">4.我在该项目中担任高级开发工程师, 负责技术选型、架构优化、代码review。</div>
         </div>
       </div>
       <div class="detail">
-        <div class="maintitle bg-c">小程序</div>
-        <div class="p-area">
-          <div class="case">1.CCBA智慧通行</div>
-          <div class="subtitle">项目简介: 导向式建站、监控电站运行情况等</div>
-          <div class="case">2.吉光智行</div>
-          <div class="subtitle">项目简介: 汽车电子卡绑定、消费场景管理等</div>
-          <div class="case">3.吉速登记</div>
-          <div class="subtitle">项目简介: 电动自行车违章、车流量分析等</div>
+        <div class="maintitle bg-c">就地控制系统</div>
+        <div class="p-area-case">
+          <div class="case">1.该系统是一款设备智能服务系统, 通过智慧控制提供不同储能策略。</div>
+          <div class="case">2.该项目架构基于react+antd+electron实现, 打包成.deb运行在ubuntu系统中。</div>
+          <div class="case">3.该平台包含设备控制、储能策略、异常报警、报表分析等功能模块。</div>
+          <div class="case">4.我在该项目中担任负责人, 主导了旧代码迁移、技术选型、基础框架搭建,Jenkinsfile脚本编写。</div>
         </div>
       </div>
       <div class="detail">
-        <div class="maintitle bg-c">APP端</div>
-        <div class="p-area">
-          <div class="case">1.光伏监控app</div>
-          <div class="subtitle">项目简介: 监控电站运行、收益等情况</div>
-          <div class="case">2.手持机app</div>
-          <div class="subtitle">项目简介: 用于洗车、加油等车生活商业场景</div>
+        <div class="maintitle bg-c">组件库及私服搭建</div>
+        <div class="p-area-case">
+          <div class="case">1.该组件库是一套公司自用组件库, 根据业务需求和UI设计规范,从而保证功能交互和UI视效一致性并提升开发效率避免重复造轮子。</div>
+          <div class="case">2.该项目架构基于antd二次开发, 使用dumi开发框架搭建静态站点, 实现组件可视化和在线调试, 使用rollup打包, 并上传到npm私服, 通过jenkins流水线实现自动化发版。</div>
+          <div class="case">3.我在该项目中担任负责人, 主导静态站点搭建、制定私服包的发版流程和webhooks订阅通知,推动自用组件库落地并持续迭代。</div>
         </div>
       </div>
       <div class="detail">
-        <div class="maintitle bg-c">BI大屏</div>
-        <div class="p-area">
-          <div class="case">1.智慧停车BI大屏</div>
-          <div class="subtitle">项目简介: 停车场数据可视化展示</div>
-          <div class="case">2.电动自行车BI大屏</div>
-          <div class="subtitle">项目简介: 实时路况、车流量数据可视化展示</div>
+        <div class="maintitle bg-c">代码生成工具</div>
+        <div class="p-area-case">
+          <div class="case">1.该工具是公司一个自用工具, 其可根据接口定义生成TS的接口类型及其请求函数代码, 避免手写, 最终以npm包的形式进行版本管理,提升开发效率。</div>
+          <div class="case">2.该工具基于node+Yapi开放接口, 通过rollup打包, 并发布为npm包并通过pnpm进行多包版本的管理。</div>
+          <div class="case">3.该工具由我独立负责, 完成架构设计, 制定使用流程, 搭建私服+webhooks订阅通知。</div>
         </div>
       </div>
-
-
+      <div class="detail">
+        <div class="maintitle bg-c">光伏监控系统</div>
+        <div class="p-area-case">
+          <div class="case">1.该系统是一款设备发电监控系统, 包括云平台、App和小程序。</div>
+          <div class="case">2.该项目云端架构基于vue3+element+ts实现, 使用vite完成打包。App端使用flutter, 小程序端使用原生句号</div>
+          <div class="case">3.该平台包含电站管理、远程设置、设备管理、发电异常报警、报表分析等功能模块。</div>
+          <div class="case">4.我在该项目中担任负责人, 主导架构搭建、技术选型、代码review。</div>
+        </div>
+      </div>
     </div>
     <!-- 教育经历 -->
     <div class="study">
